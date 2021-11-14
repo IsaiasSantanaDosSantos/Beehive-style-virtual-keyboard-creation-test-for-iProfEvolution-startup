@@ -22,68 +22,88 @@
 #keyboard-container {
     border: 1px solid var(--cor6);
     padding: 5px;
-    border-radius: 5px;
     background-color: rgba(0, 0, 0, 0);
-    margin: auto;
 }
 
 #div-01, #key-box, #div-03 {
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
 }
 
-.key {
-    border: 1px solid black;
-    margin: 0px;
-}
+
 
  p {
     text-align: center;
-    padding: 10px;
     font-size: 1.5em;
     font-weight: bold;
 }
 
 /* Hexagonal keys */
 #key-box {
-    width: 50%;
-    margin:auto;
-    border: 1px solid #000;
-    padding: 15px;
-    
+    border: 1px solid #ddd;
+    width: 700px;
+
 }
 
 #key-box .item {
-    margin:0;
-    height:180px;
-    width:200px;
+    margin:2px 38px;
+    height:90px;
+    width:100px;
     position:relative;
     overflow:hidden;
-    display:inline-block;
-    margin-right:-35px;
+    margin-right: -35px;
+    margin-top: 10px;
+    margin-left: 26px;
     vertical-align:middle;
+    transform: rotate(-32deg);
 }
 
 #key-box .item span {
-    overflow:hidden;
+    /*overflow:hidden;*/
     position:absolute;
     height:110%;
     width:100%;
     top:-5%;
     left:0;
-    background:blue;
+    background:rgb(236, 234, 234);
     transform:rotate(45.5deg) skew(16.5deg,15.5deg);
+    box-shadow: 3px 2px 4px #000;
+    border: #000;
 }
+
 #key-box .item span p {
-    transform:rotate(-45deg) skew(0,0) scale(1.4,0.77);
-    border:solid;
-    width: 101%;
+    transform:rotate(-25deg) skew(0,0) scale(2.4,0.77);
+    width: 180%;
+    height: 300%;
 }
 
 .item:nth-child(odd) {
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 .item:nth-child(even) {
     margin-bottom:-180px;
 }
+
+/*
+
+#key-q {
+    box-sizing: border-box;
+}
+
+#key-w {
+    box-sizing: border-box;
+}
+
+#key-e {
+    box-sizing: border-box; 
+}
+#key-r {
+    box-sizing: border-box;
+}
+#key-t {
+    box-sizing: border-box;
+}
+#key-y {
+    box-sizing: border-box;
+}
+*/

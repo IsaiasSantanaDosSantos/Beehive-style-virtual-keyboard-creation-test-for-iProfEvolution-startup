@@ -15,95 +15,83 @@
    --cor7: #1C1C25;
    --cor8: #241653;
    --cor9: #4f3b9971;
-   --cor10: #673AE1;
+   --cor10: #5e26f8;
    --cor11: #9C7CF8;
 }
 
-#keyboard-container {
-    border: 1px solid var(--cor6);
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-#div-01, #key-box, #div-03 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
- p {
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-}
 
 /* Hexagonal keys */
 #key-box {
-    border: 1px solid #ddd;
     width: 700px;
-
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    /*
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px;
+    */
 }
 
-#key-box .item {
-    margin:2px 38px;
-    height:90px;
-    width:100px;
-    position:relative;
-    overflow:hidden;
-    margin-right: -35px;
-    margin-top: 10px;
-    margin-left: 26px;
-    vertical-align:middle;
-    transform: rotate(-32deg);
-}
+/* General Button Style */
 
-#key-box .item span {
-    /*overflow:hidden;*/
-    position:absolute;
-    height:110%;
-    width:100%;
-    top:-5%;
-    left:0;
-    background:rgb(236, 234, 234);
-    transform:rotate(45.5deg) skew(16.5deg,15.5deg);
-    box-shadow: 3px 2px 4px #000;
-    border: #000;
-}
-
-#key-box .item span p {
-    transform:rotate(-25deg) skew(0,0) scale(2.4,0.77);
-    width: 180%;
-    height: 300%;
-}
-
-.item:nth-child(odd) {
-    margin-bottom: 15px;
-}
-.item:nth-child(even) {
-    margin-bottom:-180px;
-}
-
-/*
-
-#key-q {
+.button {
+    position: relative;
+    display: block;
+    background: transparent;
+    width: 63px;
+    height: 80px;
+    line-height: 85px;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0px 12px;
+    font-family: Helvetica, Arial, sans-serif;
     box-sizing: border-box;
-}
+  }
+  .button:before,
+  .button:after {
+    position: absolute;
+    content: '';
+    width: 58px;
+    left: 0px;
+    height: 34px;
+    z-index: -1;
+  }
+  
+  .button:before {
+    transform: perspective(15px) rotateX(15deg);
+  }
+  .button:after {
+    top: 47px;
+    transform: perspective(15px) rotateX(-15deg);
+  }
+  
+  /* Button Border Style */
+  
+  .button.border:before,
+  .button.border:after {
+    border: 2px solid #000;
+  }
+  .button.border:before {
+    border-bottom: none; /* to prevent the border-line showing up in the middle of the shape */
+  }
+  .button.border:after {
+    border-top: none; /* to prevent the border-line showing up in the middle of the shape */
+  }
+  
+  /* Button hover styles */
+  
+  .button.border:hover:before,
+  .button.border:hover:after {
+    background-image: linear-gradient(to right, var(--cor4), var(--cor10)) ;
+  }
+  .button.border:hover {
+    color: #fff;
+  }
 
-#key-w {
-    box-sizing: border-box;
-}
+  .button.border {
+    border: none !important;
+  }
 
-#key-e {
-    box-sizing: border-box; 
-}
-#key-r {
-    box-sizing: border-box;
-}
-#key-t {
-    box-sizing: border-box;
-}
-#key-y {
-    box-sizing: border-box;
-}
-*/

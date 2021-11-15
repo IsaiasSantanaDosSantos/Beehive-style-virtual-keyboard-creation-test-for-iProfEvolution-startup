@@ -26,10 +26,132 @@
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    /*
     border-radius: 5px;
-    box-shadow: 3px 3px 7px;
-    */
+    position: relative;
+}
+
+#key-q {
+    top: 10px;
+    left: 5px;
+}
+#key-w {
+    top: 10px;
+    left: 125px;
+}
+
+#key-e {
+    top: 10px;
+    left: 245px;
+}
+#key-r {
+    top: 10px;
+    left: 365px;
+}
+#key-t {
+    top: 10px;
+    left: 485px;
+}
+#key-y {
+    top: 10px;
+    left: 605px;
+}
+#key-u {
+    top: 42px;
+    left: 65px;
+}
+#key-i {
+    top: 42px;
+    left: 185px;
+}
+#key-o {
+    top: 42px;
+    left: 305px;
+}
+#key-p {
+    top: 42px;
+    left: 425px;
+}
+#key-a {
+    top: 42px;
+    left: 545px;
+}
+#key-s {
+    top: 74px;
+    left: 5px;
+}
+#key-d {
+    top: 74px;
+    left: 125px;
+}
+#key-f {
+    top: 74px;
+    left: 245px;
+}
+
+#key-g {
+    top: 74px;
+    left: 365px;
+}
+
+#key-h {
+    top: 74px;
+    left: 485px;
+}
+
+#key-j {
+    top: 74px;
+    left: 605px;
+}
+#key-k {
+    top: 106px;
+    left: 65px;
+}
+#key-l {
+    top: 106px;
+    left: 185px;
+}
+#key-z {
+    top: 106px;
+    left: 305px;
+}
+#key-x {
+    top: 106px;
+    left: 425px;
+}
+#key-c {
+    top: 106px;
+    left: 545px;
+}
+#key-v {
+    top: 138px;
+    left: 125px;
+}
+#key-b {
+    top: 138px;
+    left: 245px;
+}
+#key-n {
+    top: 138px;
+    left: 365px;
+}
+#key-m {
+    top: 138px;
+    left: 485px;
+}
+
+
+
+
+
+
+
+
+
+
+
+a.button.border {
+    position: absolute;
+    top: 50px;
 }
 
 /* General Button Style */
@@ -38,11 +160,11 @@
     position: relative;
     display: block;
     background: transparent;
-    width: 63px;
+    width: 50px;
     height: 80px;
-    line-height: 85px;
+    line-height: 75px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.6em;
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
@@ -54,18 +176,18 @@
   .button:after {
     position: absolute;
     content: '';
-    width: 58px;
+    width: 50px;
     left: 0px;
-    height: 34px;
+    height: 31px;
     z-index: -1;
   }
   
   .button:before {
-    transform: perspective(15px) rotateX(15deg);
+    transform: perspective(21px) rotateX(30deg);
   }
   .button:after {
-    top: 47px;
-    transform: perspective(15px) rotateX(-15deg);
+    top: 42px;
+    transform: perspective(21px) rotateX(-30deg);
   }
   
   /* Button Border Style */
@@ -95,3 +217,8 @@
     border: none !important;
   }
 
+/* Final text */
+#final-text {
+    position: relative;
+    bottom: -180px;
+}

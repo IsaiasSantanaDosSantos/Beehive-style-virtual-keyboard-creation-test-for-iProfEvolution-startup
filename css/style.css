@@ -1,8 +1,4 @@
 /* GLOBAL VARIABLES */
-.bg-color-one {
-    background-image: linear-gradient(to right, var(--cor3), var(--cor4));
-}
-
 :root {
    --cor0: #64069A;
    --cor1: #9860B8;
@@ -20,16 +16,21 @@
 }
 
 
-/* Hexagonal keys */
+/* keyboard box */
+/*
 #key-box {
-    width: 700px;
+    width: 690px;
+    height: 220px;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 5px;
     position: relative;
+    border: 1px solid #000;
 }
-
+*/
+/* Hexagonal keys */
+/*
 #key-q {
     top: 10px;
     left: 5px;
@@ -138,20 +139,12 @@
     top: 138px;
     left: 485px;
 }
-
-
-
-
-
-
-
-
-
-
+*/
+/* Button position */
 
 a.button.border {
     position: absolute;
-    top: 50px;
+    top: 1150px;
 }
 
 /* General Button Style */
@@ -217,8 +210,258 @@ a.button.border {
     border: none !important;
   }
 
-/* Final text */
-#final-text {
+  
+
+/* RESPONSIVINESS */
+
+@media  (max-width: 1960px){
+
+    /* keyboard box */
+#key-box {
+    width: 690px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 5px;
     position: relative;
-    bottom: -180px;
+}
+
+    /* Hexagonal keys */
+#key-q {
+    top: 10px;
+    left: 5px;
+}
+#key-w {
+    top: 10px;
+    left: 125px;
+}
+
+#key-e {
+    top: 10px;
+    left: 245px;
+}
+#key-r {
+    top: 10px;
+    left: 365px;
+}
+#key-t {
+    top: 10px;
+    left: 485px;
+}
+#key-y {
+    top: 10px;
+    left: 605px;
+}
+#key-u {
+    top: 42px;
+    left: 65px;
+}
+#key-i {
+    top: 42px;
+    left: 185px;
+}
+#key-o {
+    top: 42px;
+    left: 305px;
+}
+#key-p {
+    top: 42px;
+    left: 425px;
+}
+#key-a {
+    top: 42px;
+    left: 545px;
+}
+#key-s {
+    top: 74px;
+    left: 5px;
+}
+#key-d {
+    top: 74px;
+    left: 125px;
+}
+#key-f {
+    top: 74px;
+    left: 245px;
+}
+
+#key-g {
+    top: 74px;
+    left: 365px;
+}
+
+#key-h {
+    top: 74px;
+    left: 485px;
+}
+
+#key-j {
+    top: 74px;
+    left: 605px;
+}
+#key-k {
+    top: 106px;
+    left: 65px;
+}
+#key-l {
+    top: 106px;
+    left: 185px;
+}
+#key-z {
+    top: 106px;
+    left: 305px;
+}
+#key-x {
+    top: 106px;
+    left: 425px;
+}
+#key-c {
+    top: 106px;
+    left: 545px;
+}
+#key-v {
+    top: 138px;
+    left: 125px;
+}
+#key-b {
+    top: 138px;
+    left: 245px;
+}
+#key-n {
+    top: 138px;
+    left: 365px;
+}
+#key-m {
+    top: 138px;
+    left: 485px;
+}
+}
+
+
+ /* OTHER FORMAT */
+@media  (max-width: 768px){
+
+    /* keyboard box */
+#key-box {
+    width: 560px;
+    height: 345px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    position: relative;
+}
+    /* Hexagonal keys */
+
+#key-q {
+    top: 10px;
+    left: 125px;
+}
+
+#key-w {
+    top: 10px;
+    left: 245px;
+}
+#key-e {
+    top: 42px;
+    left: 65px;
+}
+#key-r {
+    top: 42px;
+    left: 185px;
+}
+#key-t {
+    top: 42px;
+    left: 305px;
+}
+#key-y {
+    top: 74px;
+    left: 5px;
+}
+#key-u {
+    top: 74px;
+    left: 125px;
+}
+#key-i {
+    top: 74px;
+    left: 245px;
+}
+#key-o {
+    top: 74px;
+    left: 365px;
+}
+#key-p {
+    top: 106px;
+    left: 65px;
+}
+#key-a {
+    top: 106px;
+    left: 185px;
+}
+#key-s {
+    top: 106px;
+    left: 305px;
+}
+#key-d {
+    top: 138px;
+    left: 5px;
+}
+#key-f {
+    top: 138px;
+    left: 125px;
+}
+#key-g {
+    top: 138px;
+    left: 245px;
+}
+#key-h {
+    top: 138px;
+    left: 365px;
+}
+#key-j {
+    top: 171px;
+    left: 65px;
+}
+#key-k {
+    top: 170px;
+    left: 185px;
+}
+#key-l {
+    top: 170px;
+    left: 305px;
+}
+#key-z {
+    top: 203px;
+    left: 125px;
+}
+#key-x {
+    top: 203px;
+    left: 245px;
+}
+#key-c {
+    top: 235px;
+    left: 65px;
+}
+#key-v {
+    top: 235px;
+    left: 185px;
+}
+#key-b {
+    top: 170px;
+    left: 185px;
+}
+#key-b {
+    top: 235px;
+    left: 305px;
+}
+#key-n {
+    top: 268px;
+    left: 125px;
+}
+#key-m {
+    top: 268px;
+    left: 245px;
+}
+
+
 }

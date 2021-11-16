@@ -16,130 +16,28 @@
 }
 
 
+/*APAGAR!!!!!*/
+#div-01, #div-03, #boxTwo {
+    border: 1px solid black;
+}
+#boxTwo {
+    width: 700px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    border: 1px solid black;
+}
+
+
 /* keyboard box */
-/*
 #key-box {
-    width: 690px;
-    height: 220px;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
+    text-align: center;
     border-radius: 5px;
-    position: relative;
-    border: 1px solid #000;
-}
-*/
-/* Hexagonal keys */
-/*
-#key-q {
-    top: 10px;
-    left: 5px;
-}
-#key-w {
-    top: 10px;
-    left: 125px;
 }
 
-#key-e {
-    top: 10px;
-    left: 245px;
-}
-#key-r {
-    top: 10px;
-    left: 365px;
-}
-#key-t {
-    top: 10px;
-    left: 485px;
-}
-#key-y {
-    top: 10px;
-    left: 605px;
-}
-#key-u {
-    top: 42px;
-    left: 65px;
-}
-#key-i {
-    top: 42px;
-    left: 185px;
-}
-#key-o {
-    top: 42px;
-    left: 305px;
-}
-#key-p {
-    top: 42px;
-    left: 425px;
-}
-#key-a {
-    top: 42px;
-    left: 545px;
-}
-#key-s {
-    top: 74px;
-    left: 5px;
-}
-#key-d {
-    top: 74px;
-    left: 125px;
-}
-#key-f {
-    top: 74px;
-    left: 245px;
-}
-
-#key-g {
-    top: 74px;
-    left: 365px;
-}
-
-#key-h {
-    top: 74px;
-    left: 485px;
-}
-
-#key-j {
-    top: 74px;
-    left: 605px;
-}
-#key-k {
-    top: 106px;
-    left: 65px;
-}
-#key-l {
-    top: 106px;
-    left: 185px;
-}
-#key-z {
-    top: 106px;
-    left: 305px;
-}
-#key-x {
-    top: 106px;
-    left: 425px;
-}
-#key-c {
-    top: 106px;
-    left: 545px;
-}
-#key-v {
-    top: 138px;
-    left: 125px;
-}
-#key-b {
-    top: 138px;
-    left: 245px;
-}
-#key-n {
-    top: 138px;
-    left: 365px;
-}
-#key-m {
-    top: 138px;
-    left: 485px;
-}
-*/
 /* Button position */
 
 a.button.border {
@@ -210,258 +108,496 @@ a.button.border {
     border: none !important;
   }
 
-  
 
-/* RESPONSIVINESS */
+/* Hexagonal keys */
 
-@media  (max-width: 1960px){
-
-    /* keyboard box */
-#key-box {
-    width: 690px;
-    height: 220px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    border-radius: 5px;
-    position: relative;
-}
-
-    /* Hexagonal keys */
 #key-q {
-    top: 10px;
-    left: 5px;
+    top: 5px;
+    left: 215px;
 }
 #key-w {
-    top: 10px;
-    left: 125px;
+    top: 5px;
+    left: 335px;
 }
 
 #key-e {
-    top: 10px;
-    left: 245px;
+    top: 38px;
+    left: 155px;
 }
 #key-r {
-    top: 10px;
-    left: 365px;
+    top: 38px;
+    left: 275px;
 }
 #key-t {
-    top: 10px;
-    left: 485px;
+    top: 36px;
+    left: 397px;
 }
 #key-y {
-    top: 10px;
-    left: 605px;
+    top: 72px;
+    left: 95px;
 }
 #key-u {
-    top: 42px;
-    left: 65px;
+    top: 72px;
+    left: 215px;
 }
 #key-i {
-    top: 42px;
-    left: 185px;
+    top: 70px;
+    left: 337px;
 }
 #key-o {
-    top: 42px;
-    left: 305px;
+    top: 70px;
+    left: 457px;
 }
 #key-p {
-    top: 42px;
-    left: 425px;
+    top: 105px;
+    left: 155px;
 }
 #key-a {
-    top: 42px;
-    left: 545px;
+    top: 105px;
+    left: 277px;
 }
 #key-s {
-    top: 74px;
-    left: 5px;
-}
-#key-d {
-    top: 74px;
-    left: 125px;
-}
-#key-f {
-    top: 74px;
-    left: 245px;
-}
-
-#key-g {
-    top: 74px;
-    left: 365px;
-}
-
-#key-h {
-    top: 74px;
-    left: 485px;
-}
-
-#key-j {
-    top: 74px;
-    left: 605px;
-}
-#key-k {
-    top: 106px;
-    left: 65px;
-}
-#key-l {
-    top: 106px;
-    left: 185px;
-}
-#key-z {
-    top: 106px;
-    left: 305px;
-}
-#key-x {
-    top: 106px;
-    left: 425px;
-}
-#key-c {
-    top: 106px;
-    left: 545px;
-}
-#key-v {
-    top: 138px;
-    left: 125px;
-}
-#key-b {
-    top: 138px;
-    left: 245px;
-}
-#key-n {
-    top: 138px;
-    left: 365px;
-}
-#key-m {
-    top: 138px;
-    left: 485px;
-}
-}
-
-
- /* OTHER FORMAT */
-@media  (max-width: 768px){
-
-    /* keyboard box */
-#key-box {
-    width: 560px;
-    height: 345px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    position: relative;
-}
-    /* Hexagonal keys */
-
-#key-q {
-    top: 10px;
-    left: 125px;
-}
-
-#key-w {
-    top: 10px;
-    left: 245px;
-}
-#key-e {
-    top: 42px;
-    left: 65px;
-}
-#key-r {
-    top: 42px;
-    left: 185px;
-}
-#key-t {
-    top: 42px;
-    left: 305px;
-}
-#key-y {
-    top: 74px;
-    left: 5px;
-}
-#key-u {
-    top: 74px;
-    left: 125px;
-}
-#key-i {
-    top: 74px;
-    left: 245px;
-}
-#key-o {
-    top: 74px;
-    left: 365px;
-}
-#key-p {
-    top: 106px;
-    left: 65px;
-}
-#key-a {
-    top: 106px;
-    left: 185px;
-}
-#key-s {
-    top: 106px;
-    left: 305px;
+    top: 103px;
+    left: 397px;
 }
 #key-d {
     top: 138px;
-    left: 5px;
-}
+    left: 95px;
+} 
 #key-f {
     top: 138px;
-    left: 125px;
+    left: 216px;
 }
 #key-g {
     top: 138px;
-    left: 245px;
+    left: 337px;
 }
 #key-h {
-    top: 138px;
-    left: 365px;
+    top: 137px;
+    left: 457px;
 }
 #key-j {
     top: 171px;
-    left: 65px;
+    left: 155px;
 }
 #key-k {
-    top: 170px;
-    left: 185px;
+    top: 171px;
+    left: 276px;
 }
 #key-l {
-    top: 170px;
-    left: 305px;
+    top: 171px;
+    left: 397px;
 }
 #key-z {
-    top: 203px;
-    left: 125px;
+    top: 204px;
+    left: 95px;
 }
 #key-x {
-    top: 203px;
-    left: 245px;
+    top: 204px;
+    left: 215px;
 }
 #key-c {
-    top: 235px;
-    left: 65px;
+    top: 204px;
+    left: 337px;
 }
 #key-v {
-    top: 235px;
-    left: 185px;
+    top: 204px;
+    left: 457px;
 }
 #key-b {
-    top: 170px;
-    left: 185px;
-}
-#key-b {
-    top: 235px;
-    left: 305px;
+    top: 237px;
+    left: 155px;
 }
 #key-n {
-    top: 268px;
-    left: 125px;
+    top: 237px;
+    left: 275px;
 }
 #key-m {
-    top: 268px;
-    left: 245px;
+    top: 237px;
+    left: 397px;
+}
+
+  
+ 
+ @media (max-width: 300px) {
+ #exam-image {
+     width: 200px;
+ }
+ }
+
+ 
+
+ @media (max-width: 576px) {
+    #key-box {
+        width: 350px;
+        border: 1px solid rgb(148, 24, 24);
+    }
+
+    #boxTwo {
+        width: 300px;
+        height: 300px;
+        border: 1px solid rgb(224, 0, 0);
+    }
+    /* Hexagonal keys */
+
+#key-q {
+    top: -33px;
+    left: 112px;
+    }
+#key-w {
+    top: 0px;
+    left: 50px;
+}
+#key-e {
+    top: 0px;
+    left: 174px;
+}
+
+#key-r {
+    top: 30px;
+    left: -12px;
+}
+#key-t {
+    top: 32px;
+    left: 112px;
+}
+#key-y {
+    top: 30px;
+    left: 237px;
+}
+#key-u {
+    top: 65px;
+    left: 50px;
+}
+#key-i {
+    top: 65px;
+    left: 174px;
+}
+#key-o {
+    top: 95px;
+    left: -12px;
+}
+#key-p {
+    top: 95px;
+    left: 112px;
+}
+#key-a {
+    top: 95px;
+    left: 237px;
+}
+#key-s {
+    top: 130px;
+    left: 50px;
+}
+#key-d {
+    top: 130px;
+    left: 175px;
+}
+#key-f {
+    top: 160px;
+    left: -12px;
+} 
+#key-g {
+    top: 160px;
+    left: 112px;
+}
+#key-h {
+    top: 160px;
+    left: 237px;
+}
+#key-j {
+    top: 195px;
+    left: 50px;
+}
+#key-k {
+    top: 195px;
+    left: 175px;
+}
+#key-l {
+    top: 225px;
+    left: -12px;
+}
+#key-z {
+    top: 225px;
+    left: 112px;
+}
+#key-x {
+    top: 225px;
+    left: 237px;
+}
+#key-c {
+    top: 260px;
+    left: 50px;
+}
+#key-v {
+    top: 260px;
+    left: 175px;
+}
+#key-b {
+    top: 290px;
+    left: -12px;
+}
+#key-n {
+    top: 290px;
+    left: 112px;
+}
+#key-m {
+    top: 290px;
+    left: 237px;
+}
+
+#boxTwo {
+    top: 15px;
+}
+    
+    }
+ 
+
+@media (max-width: 768px) {
+    #key-box {
+        width: 550px;
+        border: 1px solid rgb(24, 53, 148);
+    }
+
+    #boxTwo {
+        width: 480px;
+        height: 300px;
+        border: 1px solid rgb(224, 209, 0);
+    }
+    #key-q {
+        top: -33px;
+        left: 202px;
+        }
+    #key-q {
+        top: 0px;
+        left: 140px;
+    }
+    #key-w {
+        top: 0px;
+        left: 264px;
+    }
+    
+    #key-e {
+        top: 30px;
+        left: 78px;
+    }
+    #key-r {
+        top: 32px;
+        left: 202px;
+    }
+    #key-t {
+        top: 30px;
+        left: 327px;
+    }
+    #key-y {
+        top: 63px;
+        left: 17px;
+    }
+    #key-u {
+        top: 65px;
+        left: 140px;
+    }
+    #key-i {
+        top: 65px;
+        left: 265px;
+    }
+    #key-o {
+        top: 63px;
+        left: 388px;
+    }
+    #key-p {
+        top: 97px;
+        left: 78px;
+    }
+    #key-a {
+        top: 97px;
+        left: 203px;
+    }
+    #key-s {
+        top: 97px;
+        left: 327px;
+    }
+    #key-d {
+        top: 128px;
+        left: 16px;
+    } 
+    #key-f {
+        top: 130px;
+        left: 140px;
+    }
+    #key-g {
+        top: 130px;
+        left: 265px;
+    }
+    #key-h {
+        top: 128px;
+        left: 390px;
+    }
+    #key-j {
+        top: 163px;
+        left: 77px;
+    }
+    #key-k {
+        top: 163px;
+        left: 203px;
+    }
+    #key-l {
+        top: 163px;
+        left: 327px;
+    }
+    #key-z {
+        top: 194px;
+        left: 15px;
+    }
+    #key-x {
+        top: 194px;
+        left: 140px;
+    }
+    #key-c {
+        top: 194px;
+        left: 265px;
+    }
+    #key-v {
+        top: 193px;
+        left: 389px;
+    }
+    #key-b {
+        top: 228px;
+        left: 78px;
+        }
+    #key-n {
+        top: 228px;
+        left: 202px;
+    }
+    #key-m {
+        top: 228px;
+        left: 327px;
+    }
+    
+    #boxTwo {
+        top: 15px;
+    }
 }
 
 
+/*
+@media (max-width: 992px) {
+#key-box {
+    width: 750px;
+    border: 3px solid rgb(24, 151, 151);
 }
+
+#boxTwo {
+    width: 680px;
+    height: 300px;
+    border: 3px solid rgb(198, 0, 224);
+}
+*/
+    /* Hexagonal keys */
+/*
+#key-q {
+    top: 5px;
+    left: 240px;
+}
+#key-w {
+    top: 5px;
+    left: 360px;
+}
+
+#key-e {
+    top: 38px;
+    left: 180px;
+}
+#key-r {
+    top: 38px;
+    left: 300px;
+}
+#key-t {
+    top: 36px;
+    left: 422px;
+}
+#key-y {
+    top: 72px;
+    left: 120px;
+}
+#key-u {
+    top: 72px;
+    left: 240px;
+}
+#key-i {
+    top: 70px;
+    left: 362px;
+}
+#key-o {
+    top: 70px;
+    left: 482px;
+}
+#key-p {
+    top: 105px;
+    left: 180px;
+}
+#key-a {
+    top: 105px;
+    left: 302px;
+}
+#key-s {
+    top: 103px;
+    left: 422px;
+}
+#key-d {
+    top: 138px;
+    left: 120px;
+} 
+#key-f {
+    top: 138px;
+    left: 241px;
+}
+#key-g {
+    top: 138px;
+    left: 362px;
+}
+#key-h {
+    top: 137px;
+    left: 482px;
+}
+#key-j {
+    top: 171px;
+    left: 180px;
+}
+#key-k {
+    top: 171px;
+    left: 301px;
+}
+#key-l {
+    top: 171px;
+    left: 422px;
+}
+#key-z {
+    top: 204px;
+    left: 120px;
+}
+#key-x {
+    top: 204px;
+    left: 240px;
+}
+#key-c {
+    top: 204px;
+    left: 362px;
+}
+#key-v {
+    top: 204px;
+    left: 483px;
+}
+#key-b {
+    top: 237px;
+    left: 180px;
+}
+#key-n {
+    top: 237px;
+    left: 300px;
+}
+#key-m {
+    top: 237px;
+    left: 422px;
+}
+}*/

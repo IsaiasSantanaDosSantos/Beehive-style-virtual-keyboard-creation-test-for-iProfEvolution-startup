@@ -4,7 +4,7 @@
    --cor1: #9860B8;
    --cor2: #A778C3;
    --cor3: #4484b871;
-   --cor4: #74c07c9f;
+   --cor4: #39d47afd;
    --cor5: #fff;
    --cor6: #000;
    --cor7: #1C1C25;
@@ -15,19 +15,20 @@
 }
 
 /* Div to center keyboard */
-#boxTwo {
+#boxTwo, #letter-a, #q-group-keyboard {
     position: relative;
     margin: auto;
+    z-index: 1;
+    
 }
 
 
 /* keyboard box */
-#key-box {
+#key-box, #q-group-keyboard {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     text-align: center;
-    border-radius: 5px;
 }
 
 /* Button position */
@@ -35,6 +36,7 @@
 a.button.border {
     position: absolute;
     top: 1150px;
+    z-index: 2;
 }
 
 /* General Button Style */
@@ -43,41 +45,58 @@ a.button.border {
     position: relative;
     display: block;
     background: transparent;
-    width: 50px;
+    width: 80px;
     height: 80px;
-    line-height: 75px;
+    line-height: 85px;
     text-align: center;
     font-size: 1.6em;
     text-decoration: none;
     text-transform: uppercase;
-    color: #000;
+    color: rgb(122, 106, 106);
     margin: 0px 12px;
     font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
     box-sizing: border-box;
+    z-index: 1;
+    border: none !important;
   }
+
+  #boxTwo > a:hover, #q-group-keyboard > a:hover {
+    box-shadow: 10px 8px 12px gray;
+    border-radius: 50%;
+    }
+
+    
+
   .button:before,
   .button:after {
     position: absolute;
     content: '';
     width: 50px;
-    left: 0px;
+    left: 16px;
+    top: 5px;
     height: 31px;
     z-index: -1;
+    
   }
   
   .button:before {
     transform: perspective(21px) rotateX(30deg);
+    z-index: -1;
+    
   }
   .button:after {
-    top: 42px;
+    top: 45px;
     transform: perspective(21px) rotateX(-30deg);
+    z-index: -1;
+    
   }
   
   /* Button Border Style */
   
   .button.border:before,
   .button.border:after {
-    border: 2px solid #000;
+    border: 2px solid rgb(122, 106, 106);
   }
   .button.border:before {
     border-bottom: none; /* to prevent the border-line showing up in the middle of the shape */
@@ -96,13 +115,31 @@ a.button.border {
     color: #fff;
   }
 
-  .button.border {
-    border: none !important;
+
+  /*Instruction*/
+  #instruction {
+      position: relative;
+      top: -70px;
   }
+
+
+  /*Return button*/
+  #returnBtn {
+      position: relative;
+      background-color: var(--cor1);
+      border: none;
+      font-weight: bold;
+      top: 30px;
+  }
+
+  #returnBtn:hover {
+      box-shadow: 5px 5px 8px gray;
+  }
+
 
 /* Hexagonal keys */
 
-#boxTwo {
+#boxTwo, #letter-a {
     width: 480px;
     height: 300px;
 }
@@ -337,6 +374,62 @@ a.button.border {
         position: relative;
         bottom: -300px;
     }
+    /* Foot */
+    #foot {
+        height: 300px;
+    }
+     /*Instruction*/
+  #instruction {
+    position: relative;
+    top: 260px;
+}
+
+/*Return button*/
+#returnBtn {
+    top: 350px;
+}
 
 
+}
+
+/* A group of keys */
+#letter-a {
+    top: -30px;
+    display: none;
+}
+
+/*Q group keyboard page*/
+/*Key box*/
+#q-group-keyboard {
+    width: 280px;
+    height: 250px;
+}
+/*Position keys*/
+#key-q-Page-q {
+    top: 85px;
+    left: 87px;
+}
+#key-p-Page-q {
+    top: 52px;
+    left: 25px;
+}
+#key-c-Page-q {
+    top: 52px;
+    left: 149px;
+}
+#key-o-Page-q {
+    top: 20px;
+    left: 87px;
+}
+#key-k-Page-q {
+    top: 117px;
+    left: 25px;
+}
+#key-g-Page-q {
+    top: 117px;
+    left: 149px;
+}
+#key-d-Page-q {
+    top: 150px;
+    left: 87px;
 }

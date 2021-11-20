@@ -38,7 +38,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col">
-                    <h3 class="text-center mt-2 mb-2">Alphabet Choices</h3>
+                    <h3 class="text-center mt-2 mb-4">Alphabet Choices</h3>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
                 <!-- Key box -->
                 <div class="col-12 d-flex" id="key-box">
                     <div id="boxTwo"> <!-- Div to center keyboard -->
-                        <a href="#" class="button border" id="key-q">Q</a>
+                        <a href="q-group-keyboard.html" class="button border" id="key-q">Q</a>
                         <a href="#" class="button border" id="key-w">W</a>
                         <a href="#" class="button border" id="key-e">E</a>
                         <a href="#" class="button border" id="key-r">R</a>
@@ -61,7 +61,7 @@
                         <a href="#" class="button border" id="key-i">I</a>
                         <a href="#" class="button border" id="key-o">O</a>
                         <a href="#" class="button border" id="key-p">P</a>
-                        <a href="#" class="button border" id="key-a">A</a>
+                        <a href="" class="button border" id="key-a" onclick="clickA()">A</a>
                         <a href="#" class="button border" id="key-s">S</a>
                         <a href="#" class="button border" id="key-d">D</a>
                         <a href="#" class="button border" id="key-f">F</a>
@@ -79,20 +79,44 @@
                         <a href="#" class="button border" id="key-m">M</a>
                     </div>
                 </div>
+                <!-- Key A box -->
+                <!--
+                <div class="col-12 d-flex">
+                    <div id="letter-a"> 
+                        <a href="#" class="button border" id="key-r">R</a>
+                        <a href="#" class="button border" id="key-u">U</a>
+                        <a href="#" class="button border" id="key-i">I</a>
+                        <a href="#" class="button border" id="key-a">A</a>
+                        <a href="#" class="button border" id="key-f">F</a>
+                        <a href="#" class="button border" id="key-g">G</a>
+                        <a href="#" class="button border" id="key-k">K</a>
+                   </div>
+               </div>
+               -->
+           </div>
+        </div>
+    </div>
+    <!-- Return button-->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col text-center">
+                <a href="index.html"><button type="button" class="btn btn-primary" id="returnBtn"><i class="bi bi-arrow-return-left"></i> Return</button></a>
             </div>
         </div>
     </div>
     <!-- Foot text-->
     <div class="container-fluid">
         <div class="row text-center">
-            <div class="col-12 mt-4" id="instruction">
+            <div class="col-12 mt-4 mb-5" id="instruction">
                 <code>
                     Type an <strong>Alphabet</strong> on your Keyboard
                 </code>
             </div>
         </div>
    </div>
-    
+    <footer>
+        <div id="foot"></div>
+    </footer>
     <!-- JavaScript local-->
     <script src="javascript/script.js"></script>
 

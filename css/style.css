@@ -64,6 +64,7 @@ a.button.border {
   #boxTwo > a:hover, #q-group-keyboard > a:hover {
     box-shadow: 10px 8px 12px gray;
     border-radius: 50%;
+
     }
 
     
@@ -122,6 +123,11 @@ a.button.border {
       top: -70px;
   }
 
+  #instruction-q-gruop {
+      position: relative;
+      top: -88px;
+}
+
 
   /*Return button*/
   #returnBtn {
@@ -130,6 +136,15 @@ a.button.border {
       border: none;
       font-weight: bold;
       top: 30px;
+  }
+
+  /*Group page return button q*/
+  #returnBtn-q-group {
+    position: relative;
+    background-color: var(--cor1);
+    border: none;
+    font-weight: bold;
+    top: 10px;
   }
 
   #returnBtn:hover {
@@ -392,6 +407,8 @@ a.button.border {
 
 }
 
+
+
 /* A group of keys */
 #letter-a {
     top: -30px;
@@ -409,6 +426,12 @@ a.button.border {
     top: 85px;
     left: 87px;
 }
+
+.button.border#key-q-Page-q:hover:before,
+.button.border#key-q-Page-q:hover:after {
+    background-image: linear-gradient(to right, var(--cor4), var(--cor10)) ;
+  }
+
 #key-p-Page-q {
     top: 52px;
     left: 25px;
@@ -433,3 +456,11 @@ a.button.border {
     top: 150px;
     left: 87px;
 }
+
+.chosen-letter {
+    box-shadow: 10px 8px 12px gray;
+    border-radius: 50%;
+    color: #fff;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor10)) ;
+}
+

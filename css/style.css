@@ -15,7 +15,7 @@
 }
 
 /* Div to center keyboard */
-#boxTwo, #letter-a, #q-group-keyboard, #w-group-keyboard, #e-group-keyboard  {
+#boxTwo, #letter-a, #q-group-keyboard, #w-group-keyboard, #e-group-keyboard, #r-group-keyboard  {
     position: relative;
     margin: auto;
     z-index: 1;
@@ -24,7 +24,7 @@
 
 
 /* keyboard box */
-#key-box, #q-group-keyboard, #w-group-keyboard, #e-group-keyboard {
+#key-box, #q-group-keyboard, #w-group-keyboard, #e-group-keyboard, #r-group-keyboard {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
@@ -61,7 +61,7 @@ a.button.border {
     border: none !important;
   }
 
-  #boxTwo > a:hover, #q-group-keyboard > a:hover, #w-group-keyboard > a:hover, #e-group-keyboard > a:hover
+  #boxTwo > a:hover, #q-group-keyboard > a:hover, #w-group-keyboard > a:hover, #e-group-keyboard > a:hover, #r-group-keyboard > a:hover
    {
     box-shadow: 10px 8px 12px gray;
     border-radius: 50%;
@@ -414,36 +414,36 @@ a.button.border {
 
 /*Q group keyboard page*/
 /*Key box*/
-#q-group-keyboard, #w-group-keyboard, #e-group-keyboard {
+#q-group-keyboard, #w-group-keyboard, #e-group-keyboard, #r-group-keyboard {
     width: 280px;
     height: 250px;
 }
 /*Position keys*/
-#key-q-Page-q, #key-w-Page-w, #key-e-Page-e {
+#key-q-Page-q, #key-w-Page-w, #key-e-Page-e, #key-r-Page-r {
     top: 85px;
     left: 87px;
 }
-#key-o-Page-q, #key-m-Page-w, #key-f-Page-e {
+#key-o-Page-q, #key-m-Page-w, #key-f-Page-e, #key-p-Page-r {
     top: 20px;
     left: 87px;
 }
-#key-c-Page-q, #key-v-Page-w, #key-b-Page-e {
+#key-c-Page-q, #key-v-Page-w, #key-b-Page-e, #key-b-Page-r {
     top: 52px;
     left: 149px;
 }
-#key-g-Page-q, #key-n-Page-w, #key-r-Page-e {
+#key-g-Page-q, #key-n-Page-w, #key-r-Page-e, #key-l-Page-r {
     top: 117px;
     left: 149px;
 }
-#key-d-Page-q, #key-u-Page-w, #key-p-Page-e {
+#key-d-Page-q, #key-u-Page-w, #key-p-Page-e, #key-e-Page-r {
     top: 150px;
     left: 87px;
 }
-#key-k-Page-q, #key-e-Page-w, #key-m-Page-e {
+#key-k-Page-q, #key-e-Page-w, #key-m-Page-e, #key-f-Page-r {
     top: 117px;
     left: 25px;
 }
-#key-p-Page-q, #key-x-Page-w, #key-w-Page-e {
+#key-p-Page-q, #key-x-Page-w, #key-w-Page-e, #key-k-Page-r {
     top: 52px;
     left: 25px;
 }
@@ -451,7 +451,7 @@ a.button.border {
 
 
 /* ########## Main button clicked ########### */
-#key-q-Page-q, #key-w-Page-w, #key-e-Page-e {
+#key-q-Page-q, #key-w-Page-w, #key-e-Page-e, #key-r-Page-r {
     box-shadow: 10px 8px 12px gray;
     border-radius: 50%;
     color: #fff;
@@ -464,7 +464,10 @@ a.button.border {
 .button.border#key-w-Page-w:after,
 
 .button.border#key-e-Page-e:before,
-.button.border#key-e-Page-e:after{
+.button.border#key-e-Page-e:after,
+
+.button.border#key-r-Page-r:before,
+.button.border#key-r-Page-r:after {
     background-image: linear-gradient(to right, var(--cor4), var(--cor10));
 }
 

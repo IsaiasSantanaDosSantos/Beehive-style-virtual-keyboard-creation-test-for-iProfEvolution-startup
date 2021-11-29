@@ -15,7 +15,7 @@
 }
 
 /* Div to center keyboard / Group keyboard page*/
-#boxTwo, #letter-a, #q-group-keyboard, #w-group-keyboard, #e-group-keyboard, #r-group-keyboard, #t-group-keyboard, #y-group-keyboard, #i-group-keyboard  {
+#boxTwo, #letter-a, #q-group-keyboard, #w-group-keyboard, #e-group-keyboard, #r-group-keyboard, #t-group-keyboard, #y-group-keyboard, #u-group-keyboard, #i-group-keyboard, #o-group-keyboard, #p-group-keyboard, #a-group-keyboard  {
     position: relative;
     margin: auto;
     z-index: 1;
@@ -57,7 +57,7 @@ a.button.border {
     border: none !important;
   }
 
-  #boxTwo > a:hover, #q-group-keyboard > a:hover, #w-group-keyboard > a:hover, #e-group-keyboard > a:hover, #r-group-keyboard > a:hover, #t-group-keyboard > a:hover, #y-group-keyboard > a:hover, #u-group-keyboard > a:hover, #i-group-keyboard > a:hover
+  #boxTwo > a:hover, #q-group-keyboard > a:hover, #w-group-keyboard > a:hover, #e-group-keyboard > a:hover, #r-group-keyboard > a:hover, #t-group-keyboard > a:hover, #y-group-keyboard > a:hover, #u-group-keyboard > a:hover, #i-group-keyboard > a:hover, #o-group-keyboard > a:hover, #p-group-keyboard > a:hover, #a-group-keyboard > a:hover
    {
     box-shadow: 10px 8px 12px gray;
     border-radius: 50%;
@@ -409,33 +409,33 @@ a.button.border {
 }
 
 /*Position keys*/
-#key-q-Page-q, #key-w-Page-w, #key-e-Page-e, #key-r-Page-r, #key-t-Page-t, #key-y-Page-y, #key-u-Page-u, #key-i-Page-i {
+#key-q-Page-q, #key-w-Page-w, #key-e-Page-e, #key-r-Page-r, #key-t-Page-t, #key-y-Page-y, #key-u-Page-u, #key-i-Page-i, #key-o-Page-o, #key-p-Page-p, #key-a-Page-a {
     top: 85px;
     left: 87px;
 }
 
 
-#key-o-Page-q, #key-m-Page-w, #key-f-Page-e, #key-p-Page-r, #key-i-Page-t, #key-i-Page-y, #key-v-Page-u, #key-j-Page-i  {
+#key-o-Page-q, #key-m-Page-w, #key-f-Page-e, #key-p-Page-r, #key-i-Page-t, #key-i-Page-y, #key-v-Page-u, #key-j-Page-i, #key-q-Page-o, #key-b-Page-p, #key-v-Page-a  {
     top: 20px;
     left: 87px;
 }
-#key-c-Page-q, #key-v-Page-w, #key-b-Page-e, #key-b-Page-r, #key-j-Page-t, #key-x-Page-y, #key-c-Page-u, #key-l-Page-i  {
+#key-c-Page-q, #key-v-Page-w, #key-b-Page-e, #key-b-Page-r, #key-j-Page-t, #key-x-Page-y, #key-c-Page-u, #key-l-Page-i, #key-c-Page-o, #key-p2-Page-p, #key-h-Page-a  {
     top: 52px;
     left: 149px;
 }
-#key-g-Page-q, #key-n-Page-w, #key-r-Page-e, #key-l-Page-r, #key-l-Page-t, #key-v-Page-y, #key-o-Page-u,#key-t-Page-i  {
+#key-g-Page-q, #key-n-Page-w, #key-r-Page-e, #key-l-Page-r, #key-l-Page-t, #key-v-Page-y, #key-o-Page-u,#key-t-Page-i, #key-d-Page-o, #key-r-Page-p, #key-u-Page-a  {
     top: 117px;
     left: 149px;
 }
-#key-d-Page-q, #key-u-Page-w, #key-p-Page-e, #key-e-Page-r, #key-h-Page-t, #key-k-Page-y, #key-q-Page-u, #key-y-Page-i  {
+#key-d-Page-q, #key-u-Page-w, #key-p-Page-e, #key-e-Page-r, #key-h-Page-t, #key-k-Page-y, #key-q-Page-u, #key-y-Page-i, #key-g-Page-o, #key-f-Page-p, #key-k-Page-a  {
     top: 150px;
     left: 87px;
 }
-#key-k-Page-q, #key-e-Page-w, #key-m-Page-e, #key-f-Page-r, #key-p-Page-t, #key-u-Page-y, #key-n-Page-u, #key-u-Page-i, #key-u-Page-i  {
+#key-k-Page-q, #key-e-Page-w, #key-m-Page-e, #key-f-Page-r, #key-p-Page-t, #key-u-Page-y, #key-n-Page-u, #key-u-Page-i, #key-u-Page-o, #key-t-Page-p, #key-n-Page-a  {
     top: 117px;
     left: 25px;
 }
-#key-p-Page-q, #key-x-Page-w, #key-w-Page-e, #key-k-Page-r, #key-z-Page-t, #key-w-Page-y, #key-a-Page-u, #key-x-Page-i  {
+#key-p-Page-q, #key-x-Page-w, #key-w-Page-e, #key-k-Page-r, #key-z-Page-t, #key-w-Page-y, #key-a-Page-u, #key-x-Page-i, #key-s-Page-o, #key-q-Page-p, #key-y-Page-a  {
     top: 52px;
     left: 25px;
 }
@@ -443,7 +443,7 @@ a.button.border {
 
 
 /* ########## Main button clicked ########### */
-#key-q-Page-q, #key-w-Page-w, #key-e-Page-e, #key-r-Page-r, #key-t-Page-t, #key-y-Page-y, #key-u-Page-u, #key-i-Page-i {
+#key-q-Page-q, #key-w-Page-w, #key-e-Page-e, #key-r-Page-r, #key-t-Page-t, #key-y-Page-y, #key-u-Page-u, #key-i-Page-i, #key-o-Page-o, #key-p-Page-p, #key-a-Page-a {
     box-shadow: 10px 8px 12px gray;
     border-radius: 50%;
     color: #fff;
@@ -472,7 +472,16 @@ a.button.border {
 .button.border#key-u-Page-u:after,
 
 .button.border#key-i-Page-i:before,
-.button.border#key-i-Page-i:after  {
+.button.border#key-i-Page-i:after,
+
+.button.border#key-o-Page-o:before,
+.button.border#key-o-Page-o:after,
+
+.button.border#key-p-Page-p:before,
+.button.border#key-p-Page-p:after,
+
+.button.border#key-a-Page-a:before,
+.button.border#key-a-Page-a:after{
     background-image: linear-gradient(to right, var(--cor0), var(--cor2));
 }
 

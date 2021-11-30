@@ -15,7 +15,8 @@
 }
 
 /* Div to center keyboard / Group keyboard page*/
-#boxTwo, #letter-a, #q-group-keyboard, #w-group-keyboard, #e-group-keyboard, #r-group-keyboard, #t-group-keyboard, #y-group-keyboard, #u-group-keyboard, #i-group-keyboard, #o-group-keyboard, #p-group-keyboard, #a-group-keyboard  {
+#boxTwo, #letter-a, #q-group-keyboard, #w-group-keyboard, #e-group-keyboard, #r-group-keyboard, #t-group-keyboard, #y-group-keyboard, #u-group-keyboard, #i-group-keyboard, #o-group-keyboard, #p-group-keyboard, #a-group-keyboard,
+#s-group-keyboard, #d-group-keyboard, #f-group-keyboard, #g-group-keyboard, #h-group-keyboard, #j-group-keyboard, #k-group-keyboard, #l-group-keyboard, #z-group-keyboard, #x-group-keyboard, #c-group-keyboard, #v-group-keyboard, #b-group-keyboard, #n-group-keyboard, #m-group-keyboard  {
     position: relative;
     margin: auto;
     z-index: 1;
@@ -57,7 +58,7 @@ a.button.border {
     border: none !important;
   }
 
-  #boxTwo > a:hover, #q-group-keyboard > a:hover, #w-group-keyboard > a:hover, #e-group-keyboard > a:hover, #r-group-keyboard > a:hover, #t-group-keyboard > a:hover, #y-group-keyboard > a:hover, #u-group-keyboard > a:hover, #i-group-keyboard > a:hover, #o-group-keyboard > a:hover, #p-group-keyboard > a:hover, #a-group-keyboard > a:hover
+  #boxTwo > a:hover, #q-group-keyboard > a:hover, #w-group-keyboard > a:hover, #e-group-keyboard > a:hover, #r-group-keyboard > a:hover, #t-group-keyboard > a:hover, #y-group-keyboard > a:hover, #u-group-keyboard > a:hover, #i-group-keyboard > a:hover, #o-group-keyboard > a:hover, #p-group-keyboard > a:hover, #a-group-keyboard > a:hover, #s-group-keyboard > a:hover, #d-group-keyboard > a:hover, #f-group-keyboard > a:hover, #g-group-keyboard > a:hover, #h-group-keyboard > a:hover, #j-group-keyboard > a:hover, #k-group-keyboard > a:hover, #l-group-keyboard > a:hover, #z-group-keyboard > a:hover, #x-group-keyboard > a:hover, #c-group-keyboard > a:hover, #v-group-keyboard > a:hover, #b-group-keyboard > a:hover, #n-group-keyboard > a:hover, #m-group-keyboard > a:hover
    {
     box-shadow: 10px 8px 12px gray;
     border-radius: 50%;
@@ -409,33 +410,33 @@ a.button.border {
 }
 
 /*Position keys*/
-#key-q-Page-q, #key-w-Page-w, #key-e-Page-e, #key-r-Page-r, #key-t-Page-t, #key-y-Page-y, #key-u-Page-u, #key-i-Page-i, #key-o-Page-o, #key-p-Page-p, #key-a-Page-a {
+#key-q-Page-q, #key-w-Page-w, #key-e-Page-e, #key-r-Page-r, #key-t-Page-t, #key-y-Page-y, #key-u-Page-u, #key-i-Page-i, #key-o-Page-o, #key-p-Page-p, #key-a-Page-a, #key-s-Page-s, #key-d-Page-d, #key-f-Page-f, #key-g-Page-g, #key-h-Page-h, #key-j-Page-j, #key-k-Page-k, #key-l-Page-l, #key-z-Page-z, #key-x-Page-x, #key-c-Page-c, #key-v-Page-v, #key-b-Page-b, #key-n-Page-n, #key-m-Page-m {
     top: 85px;
     left: 87px;
 }
 
 
-#key-o-Page-q, #key-m-Page-w, #key-f-Page-e, #key-p-Page-r, #key-i-Page-t, #key-i-Page-y, #key-v-Page-u, #key-j-Page-i, #key-q-Page-o, #key-b-Page-p, #key-v-Page-a  {
+#key-o-Page-q, #key-m-Page-w, #key-f-Page-e, #key-p-Page-r, #key-i-Page-t, #key-i-Page-y, #key-v-Page-u, #key-j-Page-i, #key-q-Page-o, #key-b-Page-p, #key-v-Page-a, #key-z-Page-s, #key-b-Page-d, #key-e-Page-f, #key-c-Page-g, #key-f-Page-h, #key-i-Page-j, #key-x-Page-k, #key-j-Page-l, #key-n-Page-z, #key-y-Page-x, #key-g-Page-c, #key-u-Page-v, #key-d-Page-b, #key-z-Page-n, #key-w-Page-m {
     top: 20px;
     left: 87px;
 }
-#key-c-Page-q, #key-v-Page-w, #key-b-Page-e, #key-b-Page-r, #key-j-Page-t, #key-x-Page-y, #key-c-Page-u, #key-l-Page-i, #key-c-Page-o, #key-p2-Page-p, #key-h-Page-a  {
+#key-c-Page-q, #key-v-Page-w, #key-b-Page-e, #key-b-Page-r, #key-j-Page-t, #key-x-Page-y, #key-c-Page-u, #key-l-Page-i, #key-c-Page-o, #key-p2-Page-p, #key-h-Page-a, #key-b-Page-s, #key-o-Page-d, #key-p-Page-f, #key-o-Page-g, #key-a-Page-h, #key-l-Page-j, #key-y-Page-k, #key-i-Page-l, #key-s-Page-z, #key-k-Page-x, #key-o-Page-c, #key-w-Page-v, #key-r-Page-b, #key-m-Page-n, #key-n-Page-m  {
     top: 52px;
     left: 149px;
 }
-#key-g-Page-q, #key-n-Page-w, #key-r-Page-e, #key-l-Page-r, #key-l-Page-t, #key-v-Page-y, #key-o-Page-u,#key-t-Page-i, #key-d-Page-o, #key-r-Page-p, #key-u-Page-a  {
+#key-g-Page-q, #key-n-Page-w, #key-r-Page-e, #key-l-Page-r, #key-l-Page-t, #key-v-Page-y, #key-o-Page-u,#key-t-Page-i, #key-d-Page-o, #key-r-Page-p, #key-u-Page-a, #key-c-Page-s, #key-q-Page-d, #key-r-Page-f, #key-q-Page-g, #key-e-Page-h, #key-s-Page-j, #key-r-Page-k, #key-t-Page-l, #key-m-Page-z, #key-v-Page-x , #key-u-Page-c, #key-y-Page-v, #key-e-Page-b, #key-w-Page-n, #key-e-Page-m {
     top: 117px;
     left: 149px;
 }
-#key-d-Page-q, #key-u-Page-w, #key-p-Page-e, #key-e-Page-r, #key-h-Page-t, #key-k-Page-y, #key-q-Page-u, #key-y-Page-i, #key-g-Page-o, #key-f-Page-p, #key-k-Page-a  {
+#key-d-Page-q, #key-u-Page-w, #key-p-Page-e, #key-e-Page-r, #key-h-Page-t, #key-k-Page-y, #key-q-Page-u, #key-y-Page-i, #key-g-Page-o, #key-f-Page-p, #key-k-Page-a, #key-x-Page-s, #key-p-Page-d, #key-h-Page-f, #key-d-Page-g, #key-n-Page-h, #key-t-Page-j, #key-n-Page-k, #key-v-Page-l, #key-k-Page-z, #key-s-Page-x, #key-q-Page-c, #key-b-Page-v, #key-p-Page-b, #key-h-Page-n, #key-z-Page-m  {
     top: 150px;
     left: 87px;
 }
-#key-k-Page-q, #key-e-Page-w, #key-m-Page-e, #key-f-Page-r, #key-p-Page-t, #key-u-Page-y, #key-n-Page-u, #key-u-Page-i, #key-u-Page-o, #key-t-Page-p, #key-n-Page-a  {
+#key-k-Page-q, #key-e-Page-w, #key-m-Page-e, #key-f-Page-r, #key-p-Page-t, #key-u-Page-y, #key-n-Page-u, #key-u-Page-i, #key-u-Page-o, #key-t-Page-p, #key-n-Page-a, #key-k-Page-s, #key-g-Page-d, #key-k-Page-f, #key-b-Page-g, #key-x-Page-h, #key-p-Page-j, #key-w-Page-k, #key-r-Page-l, #key-e-Page-z, #key-c-Page-x, #key-d-Page-c, #key-x-Page-v, #key-f-Page-b, #key-s-Page-n, #key-v-Page-m  {
     top: 117px;
     left: 25px;
 }
-#key-p-Page-q, #key-x-Page-w, #key-w-Page-e, #key-k-Page-r, #key-z-Page-t, #key-w-Page-y, #key-a-Page-u, #key-x-Page-i, #key-s-Page-o, #key-q-Page-p, #key-y-Page-a  {
+#key-p-Page-q, #key-x-Page-w, #key-w-Page-e, #key-k-Page-r, #key-z-Page-t, #key-w-Page-y, #key-a-Page-u, #key-x-Page-i, #key-s-Page-o, #key-q-Page-p, #key-y-Page-a, #key-ch-Page-s, #key-u-Page-d, #key-b-Page-f, #key-r-Page-g, #key-r-Page-h, #key-v-Page-j, #key-z-Page-k, #key-e-Page-l, #key-x-Page-z, #key-z-Page-x, #key-s-Page-c, #key-k-Page-v, #key-g-Page-b, #key-k-Page-n, #key-k-Page-m  {
     top: 52px;
     left: 25px;
 }
@@ -450,38 +451,10 @@ a.button.border {
     cursor: default;
     }
 
-.button.border#key-q-Page-q:before,
-.button.border#key-q-Page-q:after,
- 
-.button.border#key-w-Page-w:before,
-.button.border#key-w-Page-w:after,
-
-.button.border#key-e-Page-e:before,
-.button.border#key-e-Page-e:after,
-
-.button.border#key-r-Page-r:before,
-.button.border#key-r-Page-r:after,
-
-.button.border#key-t-Page-t:before,
-.button.border#key-t-Page-t:after,
-
-.button.border#key-y-Page-y:before,
-.button.border#key-y-Page-y:after,
-
-.button.border#key-u-Page-u:before,
-.button.border#key-u-Page-u:after,
-
-.button.border#key-i-Page-i:before,
-.button.border#key-i-Page-i:after,
-
-.button.border#key-o-Page-o:before,
-.button.border#key-o-Page-o:after,
-
-.button.border#key-p-Page-p:before,
-.button.border#key-p-Page-p:after,
-
-.button.border#key-a-Page-a:before,
-.button.border#key-a-Page-a:after{
+.button.border#key-q-Page-q:before, .button.border#key-q-Page-q:after, .button.border#key-w-Page-w:before, .button.border#key-w-Page-w:after, .button.border#key-e-Page-e:before, .button.border#key-e-Page-e:after, .button.border#key-r-Page-r:before, .button.border#key-r-Page-r:after, .button.border#key-t-Page-t:before, .button.border#key-t-Page-t:after, .button.border#key-y-Page-y:before, .button.border#key-y-Page-y:after, .button.border#key-u-Page-u:before, .button.border#key-u-Page-u:after, .button.border#key-i-Page-i:before, .button.border#key-i-Page-i:after, .button.border#key-o-Page-o:before, .button.border#key-o-Page-o:after, .button.border#key-p-Page-p:before, .button.border#key-p-Page-p:after, .button.border#key-a-Page-a:before, .button.border#key-a-Page-a:after, .button.border#key-s-Page-s:before, .button.border#key-s-Page-s:after, .button.border#key-d-Page-d:before, .button.border#key-d-Page-d:after, .button.border#key-f-Page-f:before, .button.border#key-f-Page-f:after, .button.border#key-g-Page-g:before, .button.border#key-g-Page-g:after, .button.border#key-h-Page-h:before, .button.border#key-h-Page-h:after, .button.border#key-j-Page-j:before, .button.border#key-j-Page-j:after, .button.border#key-k-Page-k:before, .button.border#key-k-Page-k:after, .button.border#key-l-Page-l:before, .button.border#key-l-Page-l:after, .button.border#key-z-Page-z:before, .button.border#key-z-Page-z:after, .button.border#key-x-Page-x:before, .button.border#key-x-Page-x:after, .button.border#key-c-Page-c:before, .button.border#key-c-Page-c:after, .button.border#key-v-Page-v:before, .button.border#key-v-Page-v:after, .button.border#key-b-Page-b:before, .button.border#key-b-Page-b:after,
+.button.border#key-n-Page-n:before, .button.border#key-n-Page-n:after,
+.button.border#key-m-Page-m:before, .button.border#key-m-Page-m:after 
+{
     background-image: linear-gradient(to right, var(--cor0), var(--cor2));
 }
 
